@@ -1,20 +1,36 @@
 .section {
   padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
 }
+
+.detailsSection {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 .gridContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   width: 100%;
   max-width: 1400px;
-  margin: 40px auto;
+  margin: 0 auto;
   padding: 0 2rem;
 }
 
 .chartContainer,
 .mapContainerWrapper {
   width: 100%;
-  min-width: 400px;
+  min-width: 0; /* Changed from 400px to prevent overflow */
+}
+
+.chartContainer {
+  overflow: hidden;
+}
+
+.mapContainerWrapper {
+  position: relative;
 }
 
 .mapContainer {
@@ -23,12 +39,38 @@
   border-radius: 8px;
 }
 
+.propertyImage {
+  height: auto;
+  border-radius: 8px;
+}
+
 @media (max-width: 900px) {
   .gridContainer {
     grid-template-columns: 1fr;
+    padding: 0 1rem;
+    gap: 1.5rem;
   }
 
   .mapContainer {
     height: 300px;
+  }
+
+  .section {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .gridContainer {
+    padding: 0 0.5rem;
+    gap: 1rem;
+  }
+
+  .mapContainer {
+    height: 250px;
   }
 }
