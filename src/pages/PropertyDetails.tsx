@@ -52,7 +52,9 @@ const PropertyDetails = () => {
   if (!property) return <p>Property not found.</p>;
 
   return (
-    <section className={commonStyles.section}>
+    <section
+      className={`${commonStyles.section} ${commonStyles.detailsSection}`}
+    >
       <img
         src={property.image}
         alt={property.title}
