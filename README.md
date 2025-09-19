@@ -43,5 +43,5 @@ On a scale of 0-10, I rate my submission a 8/10.
 If given more time, I’d add:
 
 - Add pagination for property listings.
-- Improve the UI with better responsiveness, visual enhancements using icons, and improved accessibility.
+- Improve the UI with better page designs, responsiveness, visual enhancements using icons, and improved accessibility.
 - While I used React's built-in hooks (useState, useEffect, useMemo) for this project, for medium to large-scale applications, I would adopt Redux for global state management — to enhance performance, reduce redundant API calls, and better structure shared state across the app.
