@@ -1,69 +1,46 @@
-# React + TypeScript + Vite
+# Real Estate Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Real Estate Dashboard is a React app built with Vite featuring property listings with search, filter by bedrooms, and price sorting. Detailed pages show price history charts (Chart.js) and interactive maps (React Leaflet). Responsive design with CSS modules. Data is loaded locally, ready for API integration.
 
-Currently, two official plugins are available:
+**Features**
+Property listings with images and essential info.
+Case-insensitive search functionality.
+Filters by minimum number of bedrooms.
+Sorts properties by price (ascending/descending).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Detailed property page with**
+Price history chart.
+Interactive map showing property location.
+Responsive and clean UI with CSS modules.
+Data fetched locally (can be extended to API).
 
-## Expanding the ESLint configuration
+## How to Run the Project
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+1. **Clone the repository** (if applicable) or download the project files.
+2. Open your terminal and navigate to the project directory.
+3. Install dependencies: npm install
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+**Start the development server:**
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- npm run dev
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+**Time Taken:**
+Approximately 5 hours (replace with your actual time).
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+**Satisfaction Rating:**
+On a scale of 0-10, I rate my submission a 8/10.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+**Notes & Improvements (Optional)**
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Used Vite for fast development and hot module replacement.
+- Implemented property filtering, sorting, and search with React hooks.
+- Integrated Chart.js for price history visualization.
+- Added Leaflet for interactive property location maps.
+
+**If given more time, I’d add**
+
+- Pagination for large data sets.
+- Better error handling and loading states.
+- More responsive styling and UI polish.
+- Backend integration for real API calls.
+- Unit and integration tests for components.
