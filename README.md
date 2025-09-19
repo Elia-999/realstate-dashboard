@@ -19,7 +19,7 @@ Sorts properties by price (ascending/descending).
 - npm run dev
 
 **Time Taken:**
-Approximately 5 hours (replace with your actual time).
+Approximately 5 hours.
 
 **Satisfaction Rating:**
 On a scale of 0-10, I rate my submission a 8/10.
