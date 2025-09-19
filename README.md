@@ -10,7 +10,7 @@ Sorts properties by price (ascending/descending).
 
 ## How to Run the Project
 
-1. **Clone the repository** (if applicable) or download the project files.
+1. **Clone the repository** or download the project files.
 2. Open your terminal and navigate to the project directory.
 3. Install dependencies: npm install
 
