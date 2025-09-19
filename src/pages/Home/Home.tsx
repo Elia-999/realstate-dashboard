@@ -33,7 +33,9 @@ const Home: React.FC = () => {
 
   return (
     <section className={commonStyles.section}>
-      <div className={homeStyles.heading}>Available Properties</div>
+      <div className={commonStyles.heading}>
+        <h2>Available Properties</h2>
+      </div>
 
       <div className={homeStyles.filters}>
         <SearchBar keyword={keyword} onSearch={setKeyword} />

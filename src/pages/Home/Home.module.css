@@ -6,11 +6,6 @@
   margin: 0 auto;
 }
 
-.heading {
-  font-size: 24px;
-  margin-bottom: 35px;
-}
-
 .filters {
   display: flex;
   gap: 1.5rem;

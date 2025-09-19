@@ -1,29 +1,34 @@
 .section {
-  width: 100%;
   padding: 2rem;
 }
-
-.detailsSection {
-  max-width: 800px;
-  margin: auto;
-}
-
-.propertyImage {
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
   width: 100%;
-  border-radius: 8px;
-  margin-bottom: 20px;
+  max-width: 1400px;
+  margin: 40px auto;
+  padding: 0 2rem;
 }
 
-.chartContainer {
-  margin-top: 40px;
-}
-
+.chartContainer,
 .mapContainerWrapper {
-  margin-top: 40px;
+  width: 100%;
+  min-width: 400px;
 }
 
 .mapContainer {
-  height: 300px;
+  height: 400px;
   width: 100%;
   border-radius: 8px;
+}
+
+@media (max-width: 900px) {
+  .gridContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .mapContainer {
+    height: 300px;
+  }
 }
