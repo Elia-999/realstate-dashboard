@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "title": "Modern Apartment in City Center",
+    "price": 250000,
+    "bedrooms": 2,
+    "location": "Downtown",
+    "image": "https://picsum.photos/id/1011/300/200",
+    "priceHistory": [230000, 235000, 240000, 245000, 250000],
+    "coordinates": {
+      "lat": 40.7128,
+      "lng": -74.006
+    }
+  },
+  {
+    "id": 2,
+    "title": "Cozy Suburban Home",
+    "price": 320000,
+    "bedrooms": 3,
+    "location": "Suburbs",
+    "image": "https://picsum.photos/id/1012/300/200",
+    "priceHistory": [300000, 305000, 310000, 315000, 320000],
+    "coordinates": {
+      "lat": 40.6782,
+      "lng": -73.9442
+    }
+  },
+  {
+    "id": 3,
+    "title": "Luxury Villa with Pool",
+    "price": 750000,
+    "bedrooms": 5,
+    "location": "Uptown",
+    "image": "https://picsum.photos/id/1013/300/200",
+    "priceHistory": [700000, 710000, 720000, 740000, 750000],
+    "coordinates": {
+      "lat": 40.7870,
+      "lng": -73.9754
+    }
+  },
+  {
+    "id": 4,
+    "title": "Charming Cottage",
+    "price": 180000,
+    "bedrooms": 2,
+    "location": "Countryside",
+    "image": "https://picsum.photos/id/1014/300/200",
+    "priceHistory": [170000, 172000, 175000, 178000, 180000],
+    "coordinates": {
+      "lat": 41.2033,
+      "lng": -77.1945
+    }
+  },
+  {
+    "id": 5,
+    "title": "Penthouse Suite",
+    "price": 900000,
+    "bedrooms": 4,
+    "location": "City Skyline",
+    "image": "https://picsum.photos/id/1015/300/200",
+    "priceHistory": [850000, 870000, 880000, 890000, 900000],
+    "coordinates": {
+      "lat": 40.7580,
+      "lng": -73.9855
+    }
+  },
+  {
+    "id": 6,
+    "title": "Downtown Studio",
+    "price": 150000,
+    "bedrooms": 1,
+    "location": "Downtown",
+    "image": "https://picsum.photos/id/1016/300/200",
+    "priceHistory": [140000, 142000, 145000, 148000, 150000],
+    "coordinates": {
+      "lat": 40.7130,
+      "lng": -74.0072
+    }
+  },
+  {
+    "id": 7,
+    "title": "Rustic Farmhouse",
+    "price": 290000,
+    "bedrooms": 3,
+    "location": "Farmland",
+    "image": "https://picsum.photos/id/1010/300/200",
+    "priceHistory": [280000, 285000, 287000, 289000, 290000],
+    "coordinates": {
+      "lat": 40.7127,
+      "lng": -74.0059
+    }
+  },
+  {
+    "id": 8,
+    "title": "Beachfront Condo",
+    "price": 500000,
+    "bedrooms": 2,
+    "location": "Seaside",
+    "image": "https://picsum.photos/id/1018/300/200",
+    "priceHistory": [480000, 485000, 490000, 495000, 500000],
+    "coordinates": {
+      "lat": 36.8508,
+      "lng": -75.9779
+    }
+  },
+  {
+    "id": 9,
+    "title": "Smart Home in Tech Park",
+    "price": 420000,
+    "bedrooms": 3,
+    "location": "Silicon Valley",
+    "image": "https://picsum.photos/id/1019/300/200",
+    "priceHistory": [400000, 405000, 410000, 415000, 420000],
+    "coordinates": {
+      "lat": 37.3875,
+      "lng": -122.0575
+    }
+  },
+  {
+    "id": 10,
+    "title": "Elegant Townhouse",
+    "price": 360000,
+    "bedrooms": 3,
+    "location": "Historic District",
+    "image": "https://picsum.photos/id/1020/300/200",
+    "priceHistory": [340000, 345000, 350000, 355000, 360000],
+    "coordinates": {
+      "lat": 39.9526,
+      "lng": -75.1652
+    }
+  }
+]

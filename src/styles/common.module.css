@@ -1,0 +1,27 @@
+.section {
+  width: 100%;
+  padding: 2rem;
+  max-width: 500px;
+  margin: auto;
+}
+
+.propertyImage {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.chartContainer {
+  margin-top: 40px;
+}
+
+.mapContainerWrapper {
+  margin-top: 40px;
+  /* to wrap map and heading */
+}
+
+.mapContainer {
+  height: 300px;
+  width: 100%;
+  border-radius: 8px;
+}
