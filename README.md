@@ -8,12 +8,6 @@ Case-insensitive search functionality.
 Filters by minimum number of bedrooms.
 Sorts properties by price (ascending/descending).
 
-**Detailed property page with**
-Price history chart.
-Interactive map showing property location.
-Responsive and clean UI with CSS modules.
-Data fetched locally (can be extended to API).
-
 ## How to Run the Project
 
 1. **Clone the repository** (if applicable) or download the project files.
@@ -30,17 +24,24 @@ Approximately 5 hours (replace with your actual time).
 **Satisfaction Rating:**
 On a scale of 0-10, I rate my submission a 8/10.
 
-**Notes & Improvements (Optional)**
+**Notes & Improvements**
+
+**Approach:**
 
 - Used Vite for fast development and hot module replacement.
-- Implemented property filtering, sorting, and search with React hooks.
-- Integrated Chart.js for price history visualization.
-- Added Leaflet for interactive property location maps.
+- Focused on creating reusable components and keeping the code clean and maintainable.
+- Utilized React hooks (useState, useEffect, useMemo) effectively to optimize rendering and state management.
+- Implemented CSS Modules for styling components in a modular and scoped way.
+  - Avoids global CSS conflicts
+  - Encourages component-specific styling and better maintainability
 
-**If given more time, I’d add**
+**Trade-offs:**
 
-- Pagination for large data sets.
-- Better error handling and loading states.
-- More responsive styling and UI polish.
-- Backend integration for real API calls.
-- Unit and integration tests for components.
+- I used a simple in-memory data fetch from a JSON file to mimic API calls due to time constraints. In a real-world app, I’d implement proper API service for integration with loading/error states.
+
+**Improvements:**
+If given more time, I’d add:
+
+- Add pagination for property listings.
+- Improve the UI with better responsiveness, visual enhancements using icons, and improved accessibility.
+- While I used React's built-in hooks (useState, useEffect, useMemo) for this project, for medium to large-scale applications, I would adopt Redux for global state management — to enhance performance, reduce redundant API calls, and better structure shared state across the app.
